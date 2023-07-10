@@ -34,7 +34,6 @@ class Result {
     if (this.options) {
       base = { ...base, ...this.options };
     }
-    console.log(base);
     return base;
   }
 
